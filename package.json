@@ -1,0 +1,24 @@
+{
+  "name": "hello-cli",
+  "version": "1.0.0",
+  "description": "cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "login": "./bin/login.js",
+    "logout1": "./bin/logout.js",
+    "deposit": "./bin/deposit.js",
+    "transfer": "./bin/transfer.js"
+  },
+  "author": "Hemant Maurya",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "mongoose": "^5.9.12",
+    "mongoose-timestamps": "0.0.1",
+    "q": "^1.5.1",
+    "yargs": "^13.2.4"
+  }
+}
